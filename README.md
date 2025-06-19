@@ -68,7 +68,7 @@ A powerful desktop application for managing, starting, stopping, and monitoring 
 ### 2. Running the Application
 
 ```bash
-python app.py
+python server_manager.py
 ```
 
 ### 3. Adding a Server
