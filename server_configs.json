@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Python HTTP (Dummy Node.js)",
+        "command": "python -u node_dummy_server.py",
+        "working_dir": ".",
+        "autostart": false,
+        "expected_port": null
+    },
+    {
+        "name": "Python HTTP (Dummy Go)",
+        "command": "python -u go_dummy_server.py",
+        "working_dir": ".",
+        "autostart": false,
+        "expected_port": null
+    },
+    {
+        "name": "Live-Server Exemplo",
+        "command": "live-server .",
+        "working_dir": ".",
+        "autostart": false,
+        "expected_port": null
+    },
+    {
+        "name": "GO",
+        "command": "go run E:/ESTUDOS/PROGRAMA\u00c7\u00c3O/gest\u00e3o-de-estoque/main.go",
+        "working_dir": "E:/ESTUDOS/PROGRAMA\u00c7\u00c3O/gest\u00e3o-de-estoque",
+        "autostart": false,
+        "expected_port": null
+    },
+    {
+        "name": "Novo Servidor DB",
+        "command": "live-server E:/ESTUDOS/WORKSPACE/langpage --port 3000",
+        "working_dir": "E:/ESTUDOS/WORKSPACE/langpage/matesu-vanilla",
+        "autostart": false,
+        "expected_port": 3000
+    },
+    {
+        "name": "SERVER-GESTAO-FINANCEIRA",
+        "command": "go run E:/A-MEU-PESSOAL/backend/main.go",
+        "working_dir": "E:/A-MEU-PESSOAL/backend",
+        "autostart": true,
+        "expected_port": null
+    },
+    {
+        "name": "minhagestaofinceira",
+        "command": "live-server E:/A-MEU-PESSOAL/frontend --port 3000",
+        "working_dir": "E:/A-MEU-PESSOAL/frontend",
+        "autostart": true,
+        "expected_port": 3000
+    }
+]

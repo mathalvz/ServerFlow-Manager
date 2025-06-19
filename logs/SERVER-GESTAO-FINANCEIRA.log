@@ -1,0 +1,4 @@
+2025/06/19 07:37:20 main.go:150: Banco de dados SQLite inicializado e tabela 'transactions' verificada/atualizada.
+2025/06/19 07:37:20 main.go:79: Servidor backend iniciado na porta :8080
+2025/06/19 07:37:20 main.go:80: listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+exit status 1
